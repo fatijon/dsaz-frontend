@@ -1,0 +1,60 @@
+{
+  "charakter": {
+    "id": 1,
+    "person": {
+      "name": "Atosch",
+      "familienname": "Segal",
+      "spezies": "Zwerg",
+      "kultur": "Brilliantzwerg"
+    },
+    "attribute": {
+      "mu": 11,
+      "kl": 15,
+      "in": 14,
+      "ch": 14,
+      "ff": 11,
+      "ge": 11,
+      "ko": 15,
+      "kk": 11
+    },
+    "fertigkeiten": {
+      "klettern": {
+        "probe": [
+          "mu",
+          "ge",
+          "kk"
+        ],
+        "wert": 2
+      },
+      "koerperbeherschung": {
+        "probe": [
+          "ge",
+          "ge",
+          "ko"
+        ],
+        "wert": 3
+      },
+      "kraftakt": {
+        "probe": [
+          "ko",
+          "kk",
+          "kk"
+        ],
+        "wert": 2
+      }
+    },
+    "kampffertigkeit": {
+      "schwert": {
+        "leiteigenschaft": [
+          "ge",
+          "kk"
+        ],
+        "wert": 14
+      },
+      "stangenwaffe": {
+        "leiteigenschaft": "kk",
+        "wert": 13
+      }
+    }
+  }
+}

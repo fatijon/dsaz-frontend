@@ -1,0 +1,697 @@
+{
+  "charakter": {
+    "playerID": 1,
+    "characterId": 1,
+    "person": {
+      "name": "Atosch",
+      "familienname": "Segal",
+      "geburtsort": "Ferdock",
+      "geburtsdatum": "3. Ingrimm",
+      "alter": "45",
+      "geschlecht": "m",
+      "spezies": "Zwerg",
+      "groese": "1 Schritt 30",
+      "gewicht": "60 Stein",
+      "haarfarbe": "Weinrot",
+      "augenfarbe": "Blau",
+      "kultur": "Brilliantzwerg",
+      "profession": "Weißmagier",
+      "titel": "Leutnand",
+      "sozialstatus": "Magier",
+      "charakteristika": "",
+      "sonstiges": ""
+    },
+    "abenteuerPunkte": {
+      "grad": "kompetent",
+      "gesamt": 1350,
+      "aktuell": 0,
+      "ausgegeben": 1350
+    },
+    "basisWerte": {
+      "lebensenergie": 40,
+      "astralenergie": 51,
+      "karmaenergie": 0,
+      "seelenkraft": 3,
+      "zaehigkeit": 3,
+      "ausweichen": 6,
+      "initiative": 11,
+      "geschwindigkeit": 6,
+      "schicksalspunkte": 3
+    },
+    "vorteile": ["Zauberer", "Verbesserte AsP Regeneration 3", "Hohe Astrakraft 4"," Reich 1"],
+    "nachteile": ["Prinzipientreue 2", "Angst vor Schlangen 2", "Angst vor Wasser", "Laestige Mindergeister", "Neugierig", "Jaehzorn"],
+    "sonderfertigkeiteAllg": "",
+    "sonderfertigkeitenMagKler":["Bindung des Stabes","EwigeFlamme","kraftfokus","Flammendes Schwert"],
+    "sprachen": ["Garethi 3", "Rogolan 3"],
+    "schriften": ["Kusliker Zeichen", "Rogolan Runen"],
+    "attribute": {
+      "mu": 11,
+      "kl": 15,
+      "in": 14,
+      "ch": 14,
+      "ff": 11,
+      "ge": 11,
+      "ko": 15,
+      "kk": 11
+    },
+    "fertigkeiten": {
+      "fliegen": {
+        "probe": [
+          "mu",
+          "in",
+          "ge"
+        ],
+        "wert": 0
+      },
+      "gaukelei": {
+        "probe": [
+          "mu",
+          "ch",
+          "ff"
+        ],
+        "wert": 0
+      },
+      "klettern": {
+        "probe": [
+          "mu",
+          "ge",
+          "kk"
+        ],
+        "wert": 2
+      },
+      "koerperbeherschung": {
+        "probe": [
+          "ge",
+          "ge",
+          "ko"
+        ],
+        "wert": 3
+      },
+      "kraftakt": {
+        "probe": [
+          "ko",
+          "kk",
+          "kk"
+        ],
+        "wert": 2
+      },
+      "reiten": {
+        "probe": [
+          "ch",
+          "ge",
+          "kk"
+        ],
+        "wert": 0
+      },
+      "schwimmen": {
+        "probe": [
+          "ge",
+          "ko",
+          "kk"
+        ],
+        "wert": 0
+      },
+      "selbstbeherschung": {
+        "probe": [
+          "mu",
+          "mu",
+          "ko"
+        ],
+        "wert": 5
+      },
+      "singen": {
+        "probe": [
+          "kl",
+          "ch",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "sinnesschaerfe": {
+        "probe": [
+          "kl",
+          "in",
+          "in"
+        ],
+        "wert": 2
+      },
+      "tanzen": {
+        "probe": [
+          "kl",
+          "ch",
+          "ge"
+        ],
+        "wert": 0
+      },
+      "taschendiebstahl": {
+        "probe": [
+          "mu",
+          "ff",
+          "ge"
+        ],
+        "wert": 0
+      },
+      "verbergen": {
+        "probe": [
+          "mu",
+          "in",
+          "ge"
+        ],
+        "wert": 1
+      },
+      "zechen": {
+        "probe": [
+          "kl",
+          "ko",
+          "kk"
+        ],
+        "wert": 2
+      },
+      "bekehrenUeberzeugen": {
+        "probe": [
+          "mu",
+          "kl",
+          "ch"
+        ],
+        "wert": 0
+      },
+      "betoeren": {
+        "probe": [
+          "mu",
+          "ch",
+          "ch"
+        ],
+        "wert": 1
+      },
+      "einschuetern": {
+        "probe": [
+          "mu",
+          "in",
+          "ch"
+        ],
+        "wert": 0
+      },
+      "etikette": {
+        "probe": [
+          "kl",
+          "in",
+          "ch"
+        ],
+        "wert": 3
+      },
+      "gassenwissen": {
+        "probe": [
+          "kl",
+          "in",
+          "ch"
+        ],
+        "wert": 0
+      },
+      "menschenkenntnis": {
+        "probe": [
+          "kl",
+          "in",
+          "ch"
+        ],
+        "wert": 0
+      },
+      "ueberreden": {
+        "probe": [
+          "mu",
+          "in",
+          "ch"
+        ],
+        "wert": 0
+      },
+      "verkleiden": {
+        "probe": [
+          "in",
+          "ch",
+          "ge"
+        ],
+        "wert": 0
+      },
+      "willenskraft": {
+        "probe": [
+          "mu",
+          "in",
+          "ch"
+        ],
+        "wert": 5
+      },
+      "faehrtensuche": {
+        "probe": [
+          "mu",
+          "in",
+          "ge"
+        ],
+        "wert": 0
+      },
+      "fesseln": {
+        "probe": [
+          "kl",
+          "ff",
+          "kk"
+        ],
+        "wert": 0
+      },
+      "fischenAngeln": {
+        "probe": [
+          "ff",
+          "ge",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "orientierung": {
+        "probe": [
+          "kl",
+          "in",
+          "in"
+        ],
+        "wert": 2
+      },
+      "pflanzenkunde": {
+        "probe": [
+          "kl",
+          "ff",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "wildnisleben": {
+        "probe": [
+          "mu",
+          "ge",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "brettGlueksspiel": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 0
+      },
+      "geographie": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 4
+      },
+      "geschitwissen": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 5
+      },
+      "goetterKulte": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 5
+      },
+      "kriegskunst": {
+        "probe": [
+          "mu",
+          "kl",
+          "in"
+        ],
+        "wert": 2
+      },
+      "magiekunde": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 5
+      },
+      "mechanik": {
+        "probe": [
+          "kl",
+          "kl",
+          "ff"
+        ],
+        "wert": 0
+      },
+      "rechnen": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 6
+      },
+      "rechtskunde": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 6
+      },
+      "sagenLegende": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 4
+      },
+      "sphärenkunde": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 3
+      },
+      "sernenkunde": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 0
+      },
+      "alchemie": {
+        "probe": [
+          "mu",
+          "kl",
+          "ff"
+        ],
+        "wert": 5
+      },
+      "booteSchiffe": {
+        "probe": [
+          "ff",
+          "ge",
+          "kk"
+        ],
+        "wert": 0
+      },
+      "fahrzeuge": {
+        "probe": [
+          "ch",
+          "ff",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "handel": {
+        "probe": [
+          "kl",
+          "in",
+          "ch"
+        ],
+        "wert": 6
+      },
+      "heilkundeGift": {
+        "probe": [
+          "mu",
+          "kl",
+          "in"
+        ],
+        "wert": 0
+      },
+      "heilkundeKrankeiten": {
+        "probe": [
+          "mu",
+          "in",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "heilkundeSeele": {
+        "probe": [
+          "in",
+          "ch",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "heilkundeWunden": {
+        "probe": [
+          "kl",
+          "ff",
+          "ff"
+        ],
+        "wert": 3
+      },
+      "holzbearbeitung": {
+        "probe": [
+          "ff",
+          "ge",
+          "kk"
+        ],
+        "wert": 0
+      },
+      "lebensmittelbearbeitung": {
+        "probe": [
+          "in",
+          "ff",
+          "ff"
+        ],
+        "wert": 0
+      },
+      "lederbearbeitung": {
+        "probe": [
+          "ff",
+          "ge",
+          "ko"
+        ],
+        "wert": 0
+      },
+      "malenZeichnen": {
+        "probe": [
+          "in",
+          "ff",
+          "ff"
+        ],
+        "wert": 1
+      },
+      "metallbearbeitung": {
+        "probe": [
+          "ff",
+          "ko",
+          "kk"
+        ],
+        "wert": 1
+      },
+      "musizieren": {
+        "probe": [
+          "ch",
+          "ff",
+          "ko"
+        ],
+        "wert": 1
+      },
+      "schlösserknacken": {
+        "probe": [
+          "in",
+          "ff",
+          "ff"
+        ],
+        "wert": 1
+      },
+      "seinbearbeitung": {
+        "probe": [
+          "ff",
+          "ff",
+          "kk"
+        ],
+        "wert": 1
+      },
+      "stoffbearbeitung": {
+        "probe": [
+          "kl",
+          "kl",
+          "in"
+        ],
+        "wert": 0
+      }
+    },
+    "kampffertigkeit": {
+      "armbrust": {
+        "leiteigenschaft": [
+          "ff"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 0
+      },
+      "boegen": {
+        "leiteigenschaft": [
+          "ff"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 0
+      },
+      "dolche": {
+        "leiteigenschaft": [
+          "ge"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "fechtwaffen": {
+        "leiteigenschaft": [
+          "ff"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "hiebwaffen": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "kettenwaffen": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 0
+      },
+      "lanzen": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 0
+      },
+      "raufen": {
+        "leiteigenschaft": [
+          "ge",
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "schild": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "schwert": {
+        "leiteigenschaft": [
+          "ge",
+          "kk"
+        ],
+        "wert": 14,
+        "at": 15,
+        "pa": 8
+      },
+      "stangenwaffe": {
+        "leiteigenschaft": [
+          "kk",
+          "ge"
+        ],
+        "wert": 14,
+        "at": 15,
+        "pa": 8
+      },
+      "wurfwaffen": {
+        "leiteigenschaft": [
+          "ff"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 0
+      },
+      "zweihandhiebwaffen": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      },
+      "zweihandschwerter": {
+        "leiteigenschaft": [
+          "kk"
+        ],
+        "wert": 6,
+        "at": 7,
+        "pa": 4
+      }
+    },
+    "zauberRituale": {
+      "armatrutz": {
+        "probe": [
+          "kl",
+          "in",
+          "ff"
+        ],
+        "wert": 6,
+        "kosten": [
+          4,
+          8,
+          16
+        ],
+        "zauberdauer": "1 Akiton",
+        "reichweite": "selbst",
+        "wirkungsdauer": "QS x 3 min",
+        "Merkmal/Aspekt": "Heilung",
+        "wirkung": "RS +1/+2/+3"
+      },
+      "blitzDichFind": {
+        "probe": [
+          "mu",
+          "mu",
+          "ch"
+        ],
+        "wert": 10,
+        "kosten": [
+          4
+        ],
+        "zauberdauer": "1 Akiton",
+        "reichweite": "8 Meter",
+        "wirkungsdauer": "QS KR",
+        "Merkmal/Aspekt": "Einfluss",
+        "wirkung": "+1 Verwirrung je QS"
+      },
+      "ignifaxius": {
+        "probe": [
+          "mu",
+          "kl",
+          "ch"
+        ],
+        "wert": 10,
+        "kosten": [
+          8
+        ],
+        "zauberdauer": "2 Akiton",
+        "reichweite": "16 Meter",
+        "wirkungsdauer": "Sofort",
+        "Merkmal/Aspekt": "Elementar",
+        "wirkung": "2w6 + QS x2 SP, 1w3 auf Brennend"
+      }
+    },
+    "LiturgienZeremonien":{},
+    "zaubertricksSegnungen": [
+      "Trocken"
+    ]
+  }
+}

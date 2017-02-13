@@ -1,10 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { DsaComponent } from './dsa/dsa.component';
+import {AppComponent} from './app.component';
+import {DsaComponent} from './dsa/dsa.component';
 import {CharakterService} from "./dsa/charakter.service";
 
 @NgModule({
@@ -14,10 +14,11 @@ import {CharakterService} from "./dsa/charakter.service";
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule
+    HttpModule,
+    ReactiveFormsModule
   ],
-  providers: [ CharakterService],
+  providers: [CharakterService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -2,11 +2,22 @@ export interface Charakter {
   id: number;
   person: {
     name: string;
-    titel: string;
-    profession: string;
-    alter: number;
+    familienname: string;
+    geburtsort: string;
+    geburtsdatum: string;
+    alter: string;
+    geschlecht: string;
     spezies: string;
+    groesse: string;
+    gewicht: string;
+    haarfarbe: string;
+    augenfarbe: string;
     kultur: string;
+    profession: string;
+    titel: string;
+    sozialstatus: string;
+    charakteristika: string;
+    sonstiges: string;
   };
   attribut: {
     mu: number;

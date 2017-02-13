@@ -1,9 +1,74 @@
- <table>
-   <button (click)="getShow()"> Click me</button>
-    <th>Personalien:</th>
-    <tr>
-      <td>Name:</td>
-      <td>{{charakter[0].person.name}}</td>
-      <td>{{test}}</td>
-    </tr>
-</table>
+ <div>
+   <h1 id="title">Heldendokument</h1>
+   <form [formGroup]="heroForm" novalidate>
+     <div class="form-group row">
+       <label class="col-md-3">Name: </label>
+       <input class="col-md-3 form-control" formControlName="name">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Familie: </label>
+       <input class="col-md-3 form-control" formControlName="familie">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Geburtsort: </label>
+       <input class="col-md-3 form-control" formControlName="geburtsort">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Geburtsdatum: </label>
+       <input class="col-md-3 form-control" formControlName="geburtsdatum">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Alter: </label>
+       <input class="col-md-3 form-control" formControlName="alter">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Geschlecht: </label>
+       <input class="col-md-3 form-control" formControlName="geschlecht">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Spezies: </label>
+       <input class="col-md-3 form-control" formControlName="spezies">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Groesse: </label>
+       <input class="col-md-3 form-control" formControlName="groesse">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Gewicht: </label>
+       <input class="col-md-3 form-control" formControlName="gewicht">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Haarfarbe: </label>
+       <input class="col-md-3 form-control" formControlName="haarfarbe">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Augenfarbe: </label>
+       <input class="col-md-3 form-control" formControlName="augenfarbe">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Kultur: </label>
+       <input class="col-md-3 form-control" formControlName="kultur">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Profession: </label>
+       <input class="col-md-3 form-control" formControlName="profession">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Titel: </label>
+       <input class="col-md-3 form-control" formControlName="titel">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Sozialstatus: </label>
+       <input class="col-md-3 form-control" formControlName="sozialstatus">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Charakteristika: </label>
+       <input class="col-md-3 form-control" formControlName="charakteristika">
+     </div>
+     <div class="form-group row">
+       <label class="col-md-3">Sonstiges: </label>
+       <input class="col-md-3 form-control" formControlName="sonstiges">
+     </div>
+   </form>
+   <p>Form value: {{ heroForm.value | json }}</p>
+</div>

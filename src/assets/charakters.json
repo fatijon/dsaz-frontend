@@ -1,5 +1,4 @@
 {
-  "charakter": {
     "id": 1,
     "person": {
       "name": "Atosch",
@@ -55,6 +54,5 @@
         "leiteigenschaft": "kk",
         "wert": 13
       }
-    }
   }
 }

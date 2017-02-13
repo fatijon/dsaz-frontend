@@ -9,6 +9,6 @@ export class CharakterService {
   }
 
   getCharakter() {
-    return this.http.get('assets/charakters.json');
+    return this.http.get('assets/charakters.json').map((response: Response) => response.json());
   }
 }

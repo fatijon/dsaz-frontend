@@ -5,12 +5,16 @@ import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {DsaComponent} from './dsa/dsa.component';
-import {CharakterService} from "./dsa/charakter.service";
+import {KeysPipe} from "./shared/key.pipe";
+import {CapitalizePipe} from "./shared/capitalize.pipe";
 import {DiceComponent} from './dice-simulation/dice.simulator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DsaComponent,
+    KeysPipe,
+    CapitalizePipe,
     DsaComponent,
     DiceComponent
   ],
@@ -19,7 +23,7 @@ import {DiceComponent} from './dice-simulation/dice.simulator.component';
     HttpModule,
     ReactiveFormsModule
   ],
-  providers: [CharakterService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {

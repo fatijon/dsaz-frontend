@@ -6,7 +6,7 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {DsaComponent} from './dsa/dsa.component';
 import {CharakterService} from "./dsa/charakter.service";
-import { DiceComponent } from './dice-simulation/dice.simulator.component';
+import {DiceComponent} from './dice-simulation/dice.simulator.component';
 
 @NgModule({
   declarations: [

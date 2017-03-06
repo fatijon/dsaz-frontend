@@ -1,4 +1,5 @@
-import {Component, OnInit, DebugElement} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormControl} from "@angular/forms";
 
 @Component({
   selector: 'app-dice',
@@ -6,18 +7,22 @@ import {Component, OnInit, DebugElement} from '@angular/core';
   styleUrls: ['dice.simulator.component.css']
 })
 export class DiceComponent implements OnInit {
-  public dices: Array<String>;
+  diceValues = [];
+  diceCountPossibilities = [1, 2, 3, 4];
+  selectedDiceCount = new FormControl();
+
   constructor() { }
 
   ngOnInit() {
+    this.selectedDiceCount.setValue(3);
   }
 
-  clicked() {
-    this.dices = new Array<String>();
-    const diceCount = (document.querySelector('input[type=number]') as HTMLInputElement).value || 2;
-    for (let i = 0; i < diceCount; i++) {
-        const faceValue = Math.floor(Math.random() * 20) + 1;
-        this.dices.push(faceValue.toString());
-      }
+  rollClicked() {
+    this.diceValues = [];
+
+    for (let i = 0; i < this.selectedDiceCount.value; i++) {
+      const faceValue = Math.floor(Math.random() * 20) + 1;
+      this.diceValues.push(faceValue.toString());
+    }
   }
 }

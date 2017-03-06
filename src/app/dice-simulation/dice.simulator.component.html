@@ -1,8 +1,14 @@
 <div>
   <h3>Würfel</h3>
-  <input type="number" min="1" max="4" placeholder="2"> <input type="button" value="Roll" (click)="clicked()">
-  <br>
-  <span *ngFor="let dice of dices" class="fa fa-4x fa-border" aria-hidden="true">
-    <div id="dice">{{dice}}</div>
+  <select [formControl]="selectedDiceCount">
+    <option *ngFor="let diceCount of diceCountPossibilities"
+            [selected]="diceCount === 3"
+            [value]="diceCount">
+      {{diceCount}}
+    </option>
+  </select>
+  <input type="button" value="Roll" (click)="rollClicked()">
+  <span *ngFor="let diceValue of diceValues" class="fa fa-4x fa-border" aria-hidden="true">
+    <div>{{diceValue}}</div>
   </span>
 </div>

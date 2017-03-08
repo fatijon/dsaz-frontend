@@ -1,7 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {DsaComponent} from "./dsa.component";
-import {CharakterService} from "./charakter.service";
 
 @NgModule({
   imports: [
@@ -9,7 +8,7 @@ import {CharakterService} from "./charakter.service";
   ],
   declarations: [DsaComponent
   ],
-  providers: [ CharakterService ]
+  providers: [ ]
 })
 export class DsaModule {
 }

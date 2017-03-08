@@ -1,5 +1,4 @@
 {
-  "charakter": {
     "playerID": 1,
     "characterId": 1,
     "person": {
@@ -694,4 +693,3 @@
       "Trocken"
     ]
   }
-}
